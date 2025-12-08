@@ -11979,3 +11979,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-nav .nav-item {
+  margin-inline: 0.5rem;
+}
+
+section {
+  margin: 4rem 0;
+}
+
+h1, .h1 {
+  font-size: 800;
+  color: #DB1930;
+}
