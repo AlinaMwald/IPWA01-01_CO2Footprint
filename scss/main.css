@@ -12015,6 +12015,13 @@ textarea.form-control-lg {
   margin-inline: 0.5rem;
 }
 
+.nav-link {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #FFD3E0;
+}
+
 section {
   margin: 8rem 0;
 }
