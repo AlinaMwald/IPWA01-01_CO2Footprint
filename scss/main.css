@@ -35,7 +35,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #FFD3E0;
   --bs-dark: #212529;
   --bs-primary-rgb: 219, 25, 48;
   --bs-secondary-rgb: 15, 32, 37;
@@ -43,7 +43,7 @@
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
+  --bs-light-rgb: 255, 211, 224;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-text-emphasis: rgb(87.6, 10, 19.2);
   --bs-secondary-text-emphasis: rgb(6, 12.8, 14.8);
@@ -2020,13 +2020,13 @@ progress {
 
 .table-light {
   --bs-table-color: #000;
-  --bs-table-bg: #f8f9fa;
-  --bs-table-border-color: rgb(198.4, 199.2, 200);
-  --bs-table-striped-bg: rgb(235.6, 236.55, 237.5);
+  --bs-table-bg: #FFD3E0;
+  --bs-table-border-color: rgb(204, 168.8, 179.2);
+  --bs-table-striped-bg: rgb(242.25, 200.45, 212.8);
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: rgb(223.2, 224.1, 225);
+  --bs-table-active-bg: rgb(229.5, 189.9, 201.6);
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: rgb(229.4, 230.325, 231.25);
+  --bs-table-hover-bg: rgb(235.875, 195.175, 207.2);
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -3114,19 +3114,19 @@ textarea.form-control-lg {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-bg: #FFD3E0;
+  --bs-btn-border-color: #FFD3E0;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(210.8, 211.65, 212.5);
-  --bs-btn-hover-border-color: rgb(198.4, 199.2, 200);
-  --bs-btn-focus-shadow-rgb: 211, 212, 213;
+  --bs-btn-hover-bg: rgb(216.75, 179.35, 190.4);
+  --bs-btn-hover-border-color: rgb(204, 168.8, 179.2);
+  --bs-btn-focus-shadow-rgb: 217, 179, 190;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(198.4, 199.2, 200);
-  --bs-btn-active-border-color: rgb(186, 186.75, 187.5);
+  --bs-btn-active-bg: rgb(204, 168.8, 179.2);
+  --bs-btn-active-border-color: rgb(191.25, 158.25, 168);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #f8f9fa;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-bg: #FFD3E0;
+  --bs-btn-disabled-border-color: #FFD3E0;
 }
 
 .btn-dark {
@@ -3249,19 +3249,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-color: #FFD3E0;
+  --bs-btn-border-color: #FFD3E0;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f8f9fa;
-  --bs-btn-hover-border-color: #f8f9fa;
-  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-hover-bg: #FFD3E0;
+  --bs-btn-hover-border-color: #FFD3E0;
+  --bs-btn-focus-shadow-rgb: 255, 211, 224;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f8f9fa;
-  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-bg: #FFD3E0;
+  --bs-btn-active-border-color: #FFD3E0;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-color: #FFD3E0;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-border-color: #FFD3E0;
   --bs-gradient: none;
 }
 
@@ -6904,8 +6904,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-light:hover, .link-light:focus {
-  color: RGBA(249, 250, 251, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(255, 220, 230, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(255, 220, 230, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-dark {
@@ -11979,15 +11979,147 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* bricolage-grotesque-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  src: url("..static/fonts/bricolage-grotesque-v9-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* bricolage-grotesque-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 800;
+  src: url("..static/fonts/bricolage-grotesque-v9-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../static/fonts/public-sans-v21-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../static/fonts/public-sans-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 .navbar-nav .nav-item {
   margin-inline: 0.5rem;
 }
 
 section {
-  margin: 4rem 0;
+  margin: 8rem 0;
+}
+
+p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 2rem;
 }
 
 h1, .h1 {
-  font-size: 800;
+  font-family: "Bricolage Grotesque";
+  font-weight: 800;
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
   color: #DB1930;
+}
+
+h2, .h2 {
+  font-family: "Bricolage Grotesque";
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  color: #FFD3E0;
+}
+
+.logo {
+  height: auto;
+  width: 70%;
+}
+
+.bg-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.shape {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(219, 25, 48, 0.15);
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(219, 25, 48, 0.4);
+  animation: floatUp linear infinite;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(110vh) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+  }
+}
+.shape:nth-child(1) {
+  left: 5%;
+  animation-duration: 14s;
+}
+
+.shape:nth-child(2) {
+  left: 15%;
+  animation-duration: 18s;
+  width: 55px;
+  height: 55px;
+}
+
+.shape:nth-child(3) {
+  left: 28%;
+  animation-duration: 16s;
+}
+
+.shape:nth-child(4) {
+  left: 40%;
+  animation-duration: 22s;
+  width: 70px;
+  height: 70px;
+}
+
+.shape:nth-child(5) {
+  left: 53%;
+  animation-duration: 17s;
+}
+
+.shape:nth-child(6) {
+  left: 66%;
+  animation-duration: 19s;
+  width: 50px;
+  height: 50px;
+}
+
+.shape:nth-child(7) {
+  left: 77%;
+  animation-duration: 15s;
+}
+
+.shape:nth-child(8) {
+  left: 88%;
+  animation-duration: 20s;
+  width: 45px;
+  height: 45px;
 }
