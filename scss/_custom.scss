@@ -9,3 +9,21 @@
   padding: 2rem;
   background-color: #000000;
 }
+
+.infobox {
+    margin-top: 3rem;
+    background-color: $blue;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.infobox-grey {
+    margin-top: 3rem;
+    background-color: $secondary;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.h2-teal {
+    color: $teal;
+}

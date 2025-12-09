@@ -6,7 +6,7 @@
  */
 :root,
 [data-bs-theme=light] {
-  --bs-blue: #0d6efd;
+  --bs-blue: #A1D0DC;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -14,7 +14,7 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
-  --bs-teal: #20c997;
+  --bs-teal: #004150;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
@@ -12032,6 +12032,7 @@ p {
   font-weight: 400;
   font-size: 1.25rem;
   margin-top: 2rem;
+  color: #FFD3E0;
 }
 
 h1, .h1 {
@@ -12040,6 +12041,7 @@ h1, .h1 {
   font-size: 3.5rem;
   letter-spacing: 0.3rem;
   color: #DB1930;
+  margin-top: 3rem;
 }
 
 h2, .h2 {
@@ -12060,6 +12062,24 @@ h2, .h2 {
   border-radius: 2rem;
   padding: 2rem;
   background-color: #000000;
+}
+
+.infobox {
+  margin-top: 3rem;
+  background-color: #A1D0DC;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.infobox-grey {
+  margin-top: 3rem;
+  background-color: #0F2025;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.h2-teal {
+  color: #004150;
 }
 
 .bg-shapes {
