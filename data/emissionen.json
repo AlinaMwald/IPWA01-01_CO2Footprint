@@ -1,0 +1,62 @@
+[
+  {
+    "kategorie": "Land",
+    "name": "Deutschland",
+    "co2": 700,
+    "anteil": 1.5
+  },
+  {
+    "kategorie": "Land",
+    "name": "Österreich",
+    "co2": 400,
+    "anteil": 0.7
+  },
+  {
+    "kategorie": "Land",
+    "name": "Frankreich",
+    "co2": 500,
+    "anteil": 0.9
+  },
+  {
+    "kategorie": "Land",
+    "name": "China",
+    "co2": 11000,
+    "anteil": 28
+  },
+  {
+    "kategorie": "Land",
+    "name": "USA",
+    "co2": 6000,
+    "anteil": 13
+  },
+  {
+    "kategorie": "Unternehmen",
+    "name": "Fiktives Unternehmen",
+    "co2": 100,
+    "anteil": 0.2
+  },
+  {
+    "kategorie": "Unternehmen",
+    "name": "Ölunternehmen",
+    "co2": 3000,
+    "anteil": 6
+  },
+  {
+    "kategorie": "Unternehmen",
+    "name": "Industrieunternehmen",
+    "co2": 450,
+    "anteil": 0.75
+  },
+  {
+    "kategorie": "Unternehmen",
+    "name": "Automobilhersteller",
+    "co2": 2300,
+    "anteil": 4.5
+  },
+{
+    "kategorie": "Unternehmen",
+    "name": "AI Unternehmen",
+    "co2": 600,
+    "anteil": 1.3
+  }
+]
