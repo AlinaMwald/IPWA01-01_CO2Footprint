@@ -1,5 +1,11 @@
+.navbar-nav {
+  margin-right: 0;
+  margin-left: auto;     
+  text-align: right;  
+}
+
 .navbar-nav .nav-item {
-  margin-inline: .5rem;
+  margin-inline-start: .5rem;
 }
 
 .nav-link {
@@ -7,4 +13,17 @@
   font-weight: 400;
   font-size: 1rem;
   color: $light;
+}
+
+// RTL-Version
+
+html[dir="rtl"] .navbar-nav {
+  margin-left: 0;
+  margin-right: auto;    
+  text-align: left;      
+}
+
+html[dir="rtl"] .navbar-nav .nav-item {
+  margin-inline-start: 0.5rem;
+  margin-inline-end: 0.5rem;
 }

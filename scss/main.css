@@ -12011,8 +12011,14 @@ textarea.form-control-lg {
   font-weight: 700;
   src: url("../static/fonts/public-sans-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+.navbar-nav {
+  margin-right: 0;
+  margin-left: auto;
+  text-align: right;
+}
+
 .navbar-nav .nav-item {
-  margin-inline: 0.5rem;
+  margin-inline-start: 0.5rem;
 }
 
 .nav-link {
@@ -12020,6 +12026,17 @@ textarea.form-control-lg {
   font-weight: 400;
   font-size: 1rem;
   color: #FFD3E0;
+}
+
+html[dir=rtl] .navbar-nav {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+}
+
+html[dir=rtl] .navbar-nav .nav-item {
+  margin-inline-start: 0.5rem;
+  margin-inline-end: 0.5rem;
 }
 
 section {

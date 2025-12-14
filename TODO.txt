@@ -1,1 +1,3 @@
 npm installieren -> package Manager
+
+<div class="circle"></div> animieren Section projekt
