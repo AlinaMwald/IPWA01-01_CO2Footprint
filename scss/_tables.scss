@@ -1,0 +1,12 @@
+table {
+    margin-top: 3rem;
+}
+
+.table-dark thead th {
+    color: $secondary;
+    background-color: $blue;
+}
+
+.table-dark tbody tr td{
+    color: $blue;
+}
