@@ -37,22 +37,3 @@ transform: translateY(-100vh) rotate(360deg);
 .shape:nth-child(6) { left: 66%; animation-duration: 19s; width: 50px; height: 50px; }
 .shape:nth-child(7) { left: 77%; animation-duration: 15s; }
 .shape:nth-child(8) { left: 88%; animation-duration: 20s; width: 45px; height: 45px; }
-
-// Animation with circle borders
-
-.circle {
-position: absolute;
-width: 100px;
-height: 100px;
-background: rgba(219, 25, 48, 0.3);
-border-radius: 50%;
-box-shadow: 0 0 12px rgba(219, 25, 48, 0.4);
-}
-
-.glass {
-background: rgba(219, 25, 48, 0.3);
-border-radius: 50%;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8px);
-border: 1px solid rgba(255, 255, 255, 0.18);
-}
