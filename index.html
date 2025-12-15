@@ -4,15 +4,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      id="bootstrap-css"
-      href="/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    
     <!-- Einbinden von Bootstrap CSS LTR-->
     <link rel="stylesheet" href="scss/main.css" />
-  <!-- Einbinden von DataTables CSS-->
+    <!-- Einbinden von DataTables CSS-->
     <link href="cdn.datatables.net/2.3.5/css/dataTables.dataTables.min.css" />
 
     <title>Cero₂ – CO₂-Transparenz für eine emissionsärmere Zukunft</title>
@@ -190,7 +185,7 @@
 
    <!--  Einbinden von jQuery 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
-  
+
   <!-- Einbinden von DataTables JS -->
   <script src="https://cdn.datatables.net/2.3.5/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/2.3.5/js/dataTables.bootstrap5.min.js"></script>
@@ -210,4 +205,16 @@
         .setAttribute("href", "/dist/css/bootstrap.rtl.min.css");
     }
   </script>
+
+  <!-- JSON laden-->
+  <script>
+  fetch('/data/emissionen.json')
+  .then(res => response.json()) // JSON in normales JS-Objekt umwandeln
+  .then(data => {
+    console.log(data);
+    populateTable(data);
+  })
+  .catch(error => console.error('Fehler beim Laden der JSON-Daten:', error));
+  </script>
+
 </html>
