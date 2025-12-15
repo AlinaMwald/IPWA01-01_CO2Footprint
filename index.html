@@ -122,8 +122,8 @@
 
 <!-- Filter einfügen -->
         <div class="col-12">
-          <label for="filterKategorie">Kategorie:</label>
-          <select id="filterKategorie">
+          <label for="filterKategorie" class="form-label text-light">Kategorie:</label>
+          <select id="filterKategorie" class="form-select text-dark" aria-label="Kategorie filtern">
           <option value="">Alle</option>
           <option value="Land">Land</option>
           <option value="Unternehmen">Unternehmen</option>
@@ -215,8 +215,7 @@
     ],
     order: [],// Basic-Init-Beispiel
 
-    paging: false,     
-    info: false
+    dom: 't' 
   });
   
   $('#filterKategorie').on('change', function () {
