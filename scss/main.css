@@ -11993,7 +11993,7 @@ textarea.form-control-lg {
   font-family: "Bricolage Grotesque";
   font-style: normal;
   font-weight: 800;
-  src: url("..static/fonts/bricolage-grotesque-v9-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../static/fonts/bricolage-grotesque-v9-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* public-sans-regular - latin */
 @font-face {
