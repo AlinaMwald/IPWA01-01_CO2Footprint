@@ -119,6 +119,16 @@
           Es sind aktuell fiktive Daten hinterlegt
           dignissimos tenetur!
         </p>
+
+<!-- Filter einfügen -->
+        <div class="col-12">
+          <label for="filterKategorie">Kategorie:</label>
+          <select id="filterKategorie">
+          <option value="">Alle</option>
+          <option value="Land">Länder</option>
+          <option value="Unternehmen">Unternehmen</option>
+          </select>
+
         <table class="table table-dark table-striped table-hover text-light" id="emissionen-table">
           <thead>
             <tr>
@@ -170,8 +180,6 @@
 <!-- DataTables -->
 <script src="https://cdn.datatables.net/2.3.5/js/dataTables.min.js"></script>
 
-<!-- Eigenes Script -->
-<script src="js/emissionen.js"></script>
 </body>
 
 
@@ -192,28 +200,36 @@
 
   <!-- JSON Daten in Tabelle laden-->
   <script>
-  fetch('/data/emissionen.json')
-  .then(response => response.json())
-    .then(data => {
-      const tbody = document.querySelector("#emissionen-table tbody");
+  $(document).ready(function () {
 
-      data.forEach(item => {
-        const row = document.createElement("tr");
+  const table = $('#emissionen-table').DataTable({
+    ajax: {
+      url: '/data/emissionen.json',
+      dataSrc: '' // JSON als Array
+    },
+    columns: [
+      { data: 'kategorie' }, // hier sind Land und Unternehmen
+      { data: 'name' },      
+      { data: 'co2' },
+      { data: 'anteil' }
+    ],
+    order: [],// Basic-Init-Beispiel
 
-        row.innerHTML = `
-          <td>${item.kategorie}</td>
-          <td>${item.name}</td>
-          <td>${item.co2}</td>
-          <td>${item.anteil}</td>
-        `;
+    searching: false, 
+    paging: false,     
+    info: false
+  });
+  
+  $('#filterKategorie').on('change', function () {
+  const value = this.value;
+  $('#emissionen-table')
+    .DataTable()
+    .column(0)        // Kategorie-Spalte
+    .search(value)    // "Land" oder "Unternehmen"
+    .draw();
+  });     
 
-        tbody.appendChild(row);
-      });
-
-    })
-    .catch(error => {
-      console.error("Fehler beim Laden der JSON-Daten:", error);
-    });
-  </script>
+});
+</script>
 
 </html>
