@@ -12095,6 +12095,13 @@ h2, .h2 {
   padding: 2rem;
 }
 
+.infobox-light {
+  margin-top: 3rem;
+  background-color: #FFD3E0;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
 .h2-teal {
   color: #004150;
 }
