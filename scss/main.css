@@ -12231,6 +12231,11 @@ h3, .h3 {
 table {
   margin-top: 1rem;
 }
+@media (max-width: 576px) {
+  table {
+    font-size: 0.8rem;
+  }
+}
 
 .table-dark thead th {
   color: #0F2025;
