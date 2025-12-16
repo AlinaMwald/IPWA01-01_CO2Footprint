@@ -47,23 +47,8 @@
     position: absolute;
   }
 
-  .glass:nth-child(1) {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Linke untere Ecke */
-.glass:nth-child(2) {
-  bottom: 0;
-  right: 40%; 
-  transform: translateX(-60%)           
-}
-
-/* Rechte untere Ecke */
-.glass:nth-child(3) {
-  bottom: 0;
-  right: 15%;   
-  transform: translateX(-60%)    
+.glass:nth-child(1) { top: 0; left: 50%; transform: translateX(-50%)}
+.glass:nth-child(2) { bottom: 0; left: 40%; transform: translateX(-50%)}
+.glass:nth-child(3) { bottom: 0; left: 60%; transform: translateX(-50%)    
 }
 
