@@ -12232,3 +12232,8 @@ table {
 .table-dark tbody tr td {
   color: #A1D0DC;
 }
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
