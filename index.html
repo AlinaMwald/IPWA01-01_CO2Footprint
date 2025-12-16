@@ -79,7 +79,7 @@
               sint sed dolore?
             </p>
           </div>
-
+    
           <div class="col-lg-6 col-sm-12 infobox">
             <h2 class="h2-teal">Mission</h2>
             <p class="text-secondary">
@@ -89,15 +89,15 @@
               dolor sit amet consectetur adipisicing.
             </p>
           </div>
-
-
+    
+    
           <div class="col-lg-6 col-sm-12 ">
             <div class="shape"></div>
             <div class="shape"></div>
             <div class="shape"></div>
             <div class="shape"></div>
           </div>
-
+    
           <div class="col-lg-6 col-sm-12 infobox-grey ms-auto">
             <h2 class="text-primary">Initiatoren</h2>
             <p>
@@ -110,7 +110,7 @@
         </div>
       </div>
     </section>
-
+    
     <section id="emissionen">
       <div class="container">
         <h1>Emissionen</h1>
@@ -124,42 +124,50 @@
         <div class="col-12">
           <label for="filterKategorie" class="form-label text-light">Kategorie:</label>
           <select id="filterKategorie" class="form-select text-dark" aria-label="Kategorie filtern">
-          <option value="">Alle</option>
-          <option value="Land">Land</option>
-          <option value="Unternehmen">Unternehmen</option>
+            <option value="">Alle</option>
+            <option value="Land">Land</option>
+            <option value="Unternehmen">Unternehmen</option>
           </select>
-
-        <table class="table table-dark table-striped table-hover text-light" id="emissionen-table">
-          <thead>
-            <tr>
-              <th scope="col">Kategorie 
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up" viewBox="0 0 16 16">
-                   <path d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
-                </svg>
-              </th>
-              <th scope="col">Name
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up" viewBox="0 0 16 16">
-                   <path d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
-                </svg>
-              </th>
-              <th scope="col">CO₂-Emissionen in Mio. t
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up" viewBox="0 0 16 16">
-                   <path d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
-                </svg>
-              </th>
-              <th scope="col">Globale CO₂-Emissionen in %
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up" viewBox="0 0 16 16">
-                   <path d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
-                </svg>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-             <!-- JavaScript fügt hier die Daten ein -->
-          </tbody>
-        </table>
-      </div>
-    </section>
+        
+          <table class="table table-dark table-striped table-hover text-light" id="emissionen-table">
+            <thead>
+              <tr>
+                <th scope="col">Kategorie
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z" />
+                  </svg>
+                </th>
+                <th scope="col">Name
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z" />
+                  </svg>
+                </th>
+                <th scope="col">CO₂-Emissionen in Mio. t
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z" />
+                  </svg>
+                </th>
+                <th scope="col">Globale CO₂-Emissionen in %
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-up"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z" />
+                  </svg>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- JavaScript fügt hier die Daten ein -->
+            </tbody>
+          </table>
+        </div>
+        </section>
 
     <section class="bg-dark bg-rounded" id="emittenten">
       <div class="container">
@@ -170,79 +178,119 @@
             <div class="glass"></div>
             <div class="glass"></div>
           </div>
-
-        <div class="col-lg-6 col-sm-12 infobox-light">
+    
+          <div class="col-lg-6 col-sm-12 infobox-light">
             <div class="text-center">
               <h2 class="text-dark">Länder</h2>
-              <img src="static/img/emissionen-laender_shutterstock_2381945643.png" class="img-fluid" alt="Grafik über Emissionsen von Ländern weltweit"/>
+              <img src="static/img/emissionen-laender_shutterstock_2381945643.png" class="img-fluid"
+                alt="Grafik über Emissionsen von Ländern weltweit" />
               <p class="text-dark">
-                Hier steht eine kurze Information zu den Top-Emittenten von CO₂weltweit. Lorem ipsum, dolor sit amet elit. Omnis quia veniam totam?
+                Hier steht eine kurze Information zu den Top-Emittenten von CO₂weltweit. Lorem ipsum, dolor sit amet elit.
+                Omnis quia veniam totam?
               </p>
             </div>
             <ol class="list-group list-group-numbered">
-
-            <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold text-primary">China</div>
-              <b>11000 </b> Mio. t in CO₂-Emissionen
-             </div>
-
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold text-primary">USA</div>
-              <b>6000 </b> Mio. t in CO₂-Emissionen
-             </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold text-primary">Deutschland</div>
-              <b>700 </b> Mio. t in CO₂-Emissionen
-             </div>
-            </li>
-          </ol>
-        </div>
-
-        <div class="col-lg-6 col-sm-12 infobox">
+    
+              <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-primary">China</div>
+                  <b>11000 </b> Mio. t in CO₂-Emissionen
+                </div>
+    
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-primary">USA</div>
+                  <b>6000 </b> Mio. t in CO₂-Emissionen
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-primary">Deutschland</div>
+                  <b>700 </b> Mio. t in CO₂-Emissionen
+                </div>
+              </li>
+            </ol>
+          </div>
+    
+          <div class="col-lg-6 col-sm-12 infobox">
             <div class="text-center">
               <h2 class="text-dark">Unternehmen</h2>
-              <img src="static/img/emissionen-unternehemen_shutterstock_2381945643.png" class="img-fluid" alt="Grafik über Emissionsen von Ländern weltweit"/>
+              <img src="static/img/emissionen-unternehemen_shutterstock_2381945643.png" class="img-fluid"
+                alt="Grafik über Emissionsen von Ländern weltweit" />
               <p class="text-dark">
-                Hier steht eine kurze Information zu den Top-Emittenten von CO₂weltweit. Lorem ipsum, dolor sit amet elit. Omnis quia veniam totam?
+                Hier steht eine kurze Information zu den Top-Emittenten von CO₂weltweit. Lorem ipsum, dolor sit amet elit.
+                Omnis quia veniam totam?
               </p>
             </div>
             <ol class="list-group list-group-numbered">
-
-            <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold text-primary">Ölunternehmen</div>
-              <b>3000 </b> Mio. t in CO₂-Emissionen
-             </div>
-
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold text-primary">Automobilhersteller</div>
-              <b>2300 </b> Mio. t in CO₂-Emissionen
-             </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold text-primary">AI Unternehmen</div>
-              <b>600 </b> Mio. t in CO₂-Emissionen
-             </div>
-            </li>
-          </ol>
+    
+              <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-primary">Ölunternehmen</div>
+                  <b>3000 </b> Mio. t in CO₂-Emissionen
+                </div>
+    
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-primary">Automobilhersteller</div>
+                  <b>2300 </b> Mio. t in CO₂-Emissionen
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-primary">AI Unternehmen</div>
+                  <b>600 </b> Mio. t in CO₂-Emissionen
+                </div>
+              </li>
+            </ol>
+          </div>
         </div>
-
-      </div>
-
-
     </section>
 
-    <section class="bg-dark" id="impact">
+    <section id="impact">
       <div class="container">
         <h1>Impact</h1>
+        <div class="row">
+    
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-bg-primary">
+              <div class="card-body">
+                <h3 class="card-title">Impact Thema 1</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                  of the card's
+                  content.</p>
+                <a href="https://fridaysforfuture.de/fact-check/" class="btn btn-secondary">Zur Website von XY</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-bg-primary">
+              <div class="card-body">
+                <h3 class="card-title">Impact Thema 2</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                  of the card's
+                  content.</p>
+                <a href="https://fridaysforfuture.de/fact-check/" class="btn btn-secondary">Zur Website von XY</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-bg-primary">
+              <div class="card-body">
+                <h3 class="card-title">Impact Thema 3</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                  of the card's
+                  content.</p>
+                <a href="https://fridaysforfuture.de/fact-check/" class="btn btn-secondary">Zur Website von XY</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
       </div>
     </section>
 
